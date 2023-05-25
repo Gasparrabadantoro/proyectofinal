@@ -14,6 +14,8 @@
             <li><a class="boton" href="./TresEnRaya/indexTresEnRaya.html">Tres en raya </a></li>
             <li><a href="#" id="informacion">Más información</a></li>
             <li><a class="boton" href="./TrabajoWeb/index.html">Portafolio</a></li>
+            <li><a class="boton" href="ajustes.html">Ajustes</a></li>
+            <li><a class="boton" href="ajustes.html">Ajustes</a></li>
           
           </ul>
         </nav>
@@ -26,7 +28,7 @@
                 un 3 en raya y ver informacion sobre mi en un modal. </p>
           </div>
         </div>
-      
+      <!-- boton dia y noche-->
         <button id="botonOscuro">
           Cambiar modo Oscuro 
         </button>
@@ -34,19 +36,27 @@
         
       </script>
 
-<!-- Mensaje de más información en el menú-->
+<!-- Modal-->
 <script>
   const enlaceMasInfo = document.getElementById("informacion");
   enlaceMasInfo.addEventListener("click", function () {
       const informacion = `
 
-      cambiarlo jijiji
-      Autor : Gasparusama 
+      
+      Autor : Gaspar Rabadán Toro. 
+      
+      - 
+
+
       - 
       `;
       alert(informacion);
   });
 </script>
+
+<div id="user-display"></div>
+
+    <script src="ajustes.js"></script>
       
 </body>
 </html>

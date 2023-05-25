@@ -14,9 +14,9 @@
         <nav>
           <ul>
             <li><a class="boton" href="../TresEnRaya/indexTresEnRaya.html">Tres en raya </a></li>
-            <li><a class="boton" href="..#" onclick="alerta2()">Mas informacion</a></li>
             <li><a class="boton" href="../indexLanding.html">Landing Page</a></li>
-          
+            <li><a href="#" id="informacion">Más información</a></li>
+            <li><a class="boton" href="ajustes.html">Ajustes</a></li>
           </ul>
         </nav>
       
@@ -86,4 +86,21 @@ Gaspar Rabadán Toro © 2022
       </script>
 
 </body>
+
+<script>
+  const enlaceMasInfo = document.getElementById("informacion");
+  enlaceMasInfo.addEventListener("click", function () {
+      const informacion = `
+
+      
+      Autor : Gaspar Rabadán Toro. 
+      
+      - 
+
+
+      - 
+      `;
+      alert(informacion);
+  });
+</script>
 </html>

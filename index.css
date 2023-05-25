@@ -21,6 +21,17 @@ body.dark-mode{
 
 }
 
+#user-display {
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
+  background-color: #333;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  cursor: pointer;
+}
+
 .contenedorTexto {
     display: flex;
     justify-content: center;
@@ -42,14 +53,14 @@ body.dark-mode{
   }
 
   #informacion{
-    
+
     display: block;
     padding: 20px;
     padding-top: 0px;
     padding-bottom: 0px;
    
     font-size: 20px;
-    color: black;
+    color: rgb(255, 254, 254);
     text-align: center;
     padding: 14px 110px;
     font-weight: bolder;
@@ -57,7 +68,7 @@ body.dark-mode{
     border-radius: 10px;
     border: solid;
     border-color: black;
-    margin: 2px;
+    margin: 15px;
     transition: all .3s;
 
     background:linear-gradient(rgb(10, 218, 255),rgb(121, 11, 106));
@@ -71,7 +82,7 @@ body.dark-mode{
     padding-bottom: 0px;
    
     font-size: 20px;
-    color: black;
+    color: rgb(255, 255, 255);
     text-align: center;
     padding: 14px 110px;
     font-weight: bolder;
@@ -79,7 +90,7 @@ body.dark-mode{
     border-radius: 10px;
     border: solid;
     border-color: black;
-    margin: 2px;
+    margin: 15px;
     transition: all .3s;
 
     background:linear-gradient(rgb(10, 218, 255),rgb(121, 11, 106));
@@ -99,21 +110,7 @@ nav{
     background-color: rgb(27, 229, 251);
 }
 
-.boton{
-    margin: 0.5em 2%;
-    height: 2em;
-    width: 100%;
-    text-align:center;
-    text-decoration: none;
-    padding-top:0,2em;
-    text-shadow:2px 2px black;
-    cursor: pointer;
-    font-size:xx-large;
-    background-color:rgba(209, 199, 107, 0.473);
-    box-shadow:5px 5px 5px 0px rgba(178, 24, 184, 0.705);
-    border-radius:0.4em;
-    color:rgb(245, 245, 245);
- }
+
  .boton:visited {
     color:whitesmoke;
 }
