@@ -1,3 +1,29 @@
+:root{
+    --colfuente:rgb(206, 63, 235);
+    --colfuente:rgb(209, 97, 97);
+    --tamNormal:2vw;
+}
+.boton {
+    display: block;
+    padding: 20px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+   
+    font-size: 20px;
+    color: black;
+    text-align: center;
+    padding: 14px 110px;
+    font-weight: bolder;
+    text-decoration: none;
+    border-radius: 10px;
+    border: solid;
+    border-color: black;
+    margin: 2px;
+    transition: all .3s;
+
+    background:linear-gradient(rgb(10, 218, 255),rgb(121, 11, 106));
+
+}
 *{
     box-sizing:border-box;
     margin:0;
@@ -5,7 +31,15 @@
 }
 body {
     margin:5vh 5%;
-    background-color:rgb(38, 154, 201);
+    background-image:url(./landingPage.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-position: center center;
+    height: 800px;
+    weight:600;
+  
+    background-attachment:fixed;
+    background-size:cover ;
 }
 
 nav{
@@ -44,3 +78,35 @@ nav{
         background-color:rgb(238, 0, 255);
 }
 }
+
+header {
+    background-color: #333;
+    height: 50px;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav li {
+    display: inline-block;
+  }
+  
+  nav li a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+  }
+  
+  nav li a:hover {
+    background-color: #555;
+  }
+
+  .fotoFondo {
+    background-image: url("landingPage.png");
+    background-size: cover;
+    background-position: center;
+  }

@@ -10,6 +10,27 @@
     background-color: rgb(108, 169, 238);
 }
 
+.boton {
+    display: block;
+    padding: 20px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+   
+    font-size: 20px;
+    color: black;
+    text-align: center;
+    padding: 14px 110px;
+    font-weight: bolder;
+    text-decoration: none;
+    border-radius: 10px;
+    border: solid;
+    border-color: black;
+    margin: 2px;
+    transition: all .3s;
+
+    background:linear-gradient(rgb(10, 218, 255),rgb(121, 11, 106));
+
+}
 
 .perfilprofesional:hover{
  
