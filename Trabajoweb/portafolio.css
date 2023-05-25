@@ -5,10 +5,26 @@
     --tamNormal:2vw;
 }
 
-*{
-   
-    background-color: rgb(108, 169, 238);
+body{
+    background-color: rgb(255, 255, 255);
+
 }
+
+#botonOscuro{
+
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+  
+  
+  }
+  
+  body.dark-mode{
+  
+    background-color: #20093a;
+    color: #fff;
+  
+  }
 
 .boton {
     display: block;

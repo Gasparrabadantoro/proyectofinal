@@ -7,44 +7,17 @@
     <title>Proyecto Final</title>
     <link rel="stylesheet" href="./index.css">
 </head>
-
-<head>
-    <link rel="stylesheet" type="index.css" href="styles.css">
-    <script src="index.js"></script>
-  </head>
-  <body>
-    <header>
-      <h1>Modo Oscuro</h1>
-      <button id="darkModeButton" onclick="toggleDarkMode()">Cambiar Modo</button>
-
-
 <body>
     <header>
         <nav>
           <ul>
             <li><a class="boton" href="./TresEnRaya/indexTresEnRaya.html">Tres en raya </a></li>
-            <li><a class="boton" href="#" onclick="alerta1()">Mas informacion</a></li>
+            <li><a href="#" id="informacion">Más información</a></li>
             <li><a class="boton" href="./TrabajoWeb/index.html">Portafolio</a></li>
           
           </ul>
         </nav>
       </header>
-   <!--  <nav>
-        <a class="boton" href="./TresEnRaya/indexTresEnRaya.html">
-            <h2>Tres en Raya </h2>
-        </a>
-        
-        <a class="boton" href="#" onclick="alerta1()"> <h2>Mas información</h2></a>
-
-        <a class="boton" href="./TrabajoWeb/index.html">
-            <h2>Portafolio Rabadán </h2>
-        </a>
-
-       
-    </nav>
--->
-    <script src="index.js"></script>
-    <body>
         <div class="contenedorTexto">
           <div class="texto">
             <h1>Sobre mi</h1>
@@ -53,6 +26,27 @@
                 un 3 en raya y ver informacion sobre mi en un modal. </p>
           </div>
         </div>
-      </body>
+      
+        <button id="botonOscuro">
+          Cambiar modo Oscuro 
+        </button>
+      <script src="modoOscuro.js">
+        
+      </script>
+
+<!-- Mensaje de más información en el menú-->
+<script>
+  const enlaceMasInfo = document.getElementById("informacion");
+  enlaceMasInfo.addEventListener("click", function () {
+      const informacion = `
+
+      cambiarlo jijiji
+      Autor : Gasparusama 
+      - 
+      `;
+      alert(informacion);
+  });
+</script>
+      
 </body>
 </html>
