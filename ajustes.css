@@ -1,4 +1,19 @@
+#botonOscuro{
 
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+
+
+}
+
+body.dark-mode{
+
+    background-color: #20093a;
+  
+  color: #08c3fc;
+
+}
 #user-display {
     position: fixed;
     bottom: 20px;
@@ -29,5 +44,50 @@
     transition: all .3s;
 
     background:linear-gradient(rgb(10, 218, 255),rgb(121, 11, 106));
+
+}
+
+#informacion{
+
+  display: block;
+  padding: 20px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+ 
+  font-size: 20px;
+  color: rgb(255, 254, 254);
+  text-align: center;
+  padding: 14px 110px;
+  font-weight: bolder;
+  text-decoration: none;
+  border-radius: 10px;
+  border: solid;
+  border-color: black;
+  margin: 15px;
+  transition: all .3s;
+
+  background:linear-gradient(rgb(10, 218, 255),rgb(121, 11, 106));
+
+
+}
+.boton {
+  display: block;
+  padding: 20px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+ 
+  font-size: 20px;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  padding: 14px 110px;
+  font-weight: bolder;
+  text-decoration: none;
+  border-radius: 10px;
+  border: solid;
+  border-color: black;
+  margin: 15px;
+  transition: all .3s;
+
+  background:linear-gradient(rgb(10, 218, 255),rgb(121, 11, 106));
 
 }
