@@ -1,0 +1,63 @@
+-<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyecto Final</title>
+    <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+    <header>
+        <nav>
+          <ul>
+            <li><a class="boton" href="./TresEnRaya/indexTresEnRaya.html">Tres en raya </a></li>
+            <li><a href="#" id="informacion">Más información</a></li>
+            <li><a class="boton" href="./TrabajoWeb/index.html">Portafolio</a></li>
+            <li><a class="boton" href="ajustes.html">Ajustes</a></li>
+            <li><a class="boton" href="https://gasparrabadantoro.github.io/proyectofinal/OyeComoVa/OyeComoVa.xml">xml</a></li>
+            
+          
+          </ul>
+        </nav>
+      </header>
+        <div class="contenedorTexto">
+          <div class="texto">
+            <h1>Sobre mi</h1>
+            <p>Bienvenidos a mi página,encontrareis un apartado de portafolio donde
+                podreis ver parte de mi trabajo profesional,podeis navegar entre menus para jugar
+                un 3 en raya y ver informacion sobre mi en un modal. </p>
+          </div>
+        </div>
+      <!-- boton dia y noche-->
+        <button id="botonOscuro">
+          Cambiar modo Oscuro 
+        </button>
+      <script src="modoOscuro.js">
+        
+      </script>
+
+<!-- Modal-->
+<script>
+  const enlaceMasInfo = document.getElementById("informacion");
+  enlaceMasInfo.addEventListener("click", function () {
+      const informacion = `
+
+      
+      Autor : Gaspar Rabadán Toro. 
+      
+      - 
+
+
+      - 
+      `;
+      alert(informacion);
+  });
+</script>
+
+<div id="user-display"></div>
+
+    <script src="ajustes.js"></script>
+      
+</body>
+</html>
