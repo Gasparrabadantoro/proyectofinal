@@ -92,3 +92,10 @@ button {
     flex-wrap: wrap;
 }
 
+nav{
+
+    display:flex;
+    flex-direction: column;
+    background-color: rgb(10, 218, 255);
+}
+

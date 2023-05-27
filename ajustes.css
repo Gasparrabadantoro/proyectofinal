@@ -70,3 +70,10 @@ body.dark-mode{
     background:linear-gradient(rgb(10, 218, 255),rgb(121, 11, 106));
 
 }
+
+nav{
+
+  display:flex;
+  flex-direction: column;
+  background-color: rgb(10, 218, 255);
+}
