@@ -73,13 +73,19 @@ button {
     flex-wrap: wrap;
 }
 
-#user-display {
-    position: fixed;
-    bottom: 20px;
-    left: 20px;
-    background-color: #333;
-    color: white;
-    border: none;
-    padding: 8px 16px;
-    cursor: pointer;
-  }
+#botonOscuro{
+
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+
+
+}
+
+body.dark-mode{
+
+    background-color: #20093a;
+  
+  color: #08c3fc;
+
+}
