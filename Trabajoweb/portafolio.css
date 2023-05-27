@@ -300,7 +300,16 @@ para evitar el pixelado */
     }
 }
    
-
+#user-display {
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    cursor: pointer;
+  }
   
 
 
