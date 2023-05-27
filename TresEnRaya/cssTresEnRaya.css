@@ -2,7 +2,26 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+
+
 }
+
+#botonOscuro{
+
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+  
+  
+  }
+  
+  body.dark-mode{
+  
+      background-color: #20093a;
+    
+    color: #08c3fc;
+  
+  }
 
 .boton {
     display: block;
@@ -73,19 +92,3 @@ button {
     flex-wrap: wrap;
 }
 
-#botonOscuro{
-
-  position: fixed;
-  bottom: 20px;
-  right: 20px;
-
-
-}
-
-body.dark-mode{
-
-    background-color: #20093a;
-  
-  color: #08c3fc;
-
-}
